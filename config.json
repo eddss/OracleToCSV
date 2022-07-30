@@ -1,0 +1,15 @@
+{
+  "db_info": {
+    "ip": "127.0.0.1",
+    "port": "1521",
+    "service_name": "orcl",
+    "sid": "",
+    "user": "sa",
+    "password": "1111"
+  },
+  "table_info": {
+    "table_name": "TB_TEST",
+    "where": "start_date >= trunc(sysdate, 'iw') - 8 and end_date < trunc(sysdate, 'iw') - 1",
+    "encoding": "ANSI"
+  }
+}
